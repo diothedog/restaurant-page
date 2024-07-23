@@ -1,1 +1,3 @@
-console.log("Testing, testing, 1, 2, 3!");
+import home from "./home.js";
+
+home();
