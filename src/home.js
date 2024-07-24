@@ -17,7 +17,7 @@ export default function createHome() {
     content.appendChild(myImage);
 
     const imageCredit = document.createElement("p");
-    imageCredit.innerHTML = 'Photo by <a href="https://unsplash.com/@itscassy_wassy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Cassidy Mills</a> on <a href="https://unsplash.com/photos/table-arrangement-inside-room-LPTUjv9l8BE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>"';
+    imageCredit.innerHTML = 'Photo by <a href="https://unsplash.com/@itscassy_wassy?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Cassidy Mills</a> on <a href="https://unsplash.com/photos/table-arrangement-inside-room-LPTUjv9l8BE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>';
     content.appendChild(imageCredit);
 
     return content;
