@@ -1,5 +1,6 @@
 import home from "./home.js";
 import menu from "./menu.js";
+import order from "./order.js";
 
 home();
 
@@ -21,4 +22,13 @@ menuBtn.addEventListener("click", () => {
     };
 
     menu();
+});
+
+const orderBtn = document.querySelector("#order");
+orderBtn.addEventListener("click", () => {
+    while (content.firstChild) {
+        content.removeChild(content.firstChild);
+    };
+
+    order();
 });

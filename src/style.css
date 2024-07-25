@@ -50,3 +50,10 @@ li {
     font-size: 1.5vh;
     margin-bottom: 1vh;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    align-items: center;
+}
